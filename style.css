@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(49, 49, 49);
+}
+
+.calc-btn {
+  width: 200px;
+  height: 100px;
+  color: #fff;
+  border-color: rgb(167, 167, 167);
+}
+
+p {
+  color: #fff;
+}
+
+#result {
+  width: 350px;
+  margin: auto;
+}

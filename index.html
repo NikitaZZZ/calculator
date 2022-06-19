@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quadratic Equation NLS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="mt-3" id="calculator" style="width: 400px; margin: auto">
+      <h2 style="text-align: center; color: #fff" id="innerCalc"></h2>
+
+      <div class="btn-group-vertical mt-3" style="width: 100px">
+        <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(7)">7</button>
+        <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(4)">4</button>
+        <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(1)">1</button>
+      </div>
+      <div class="btn-group-vertical mt-3" style="width: 100px">
+        <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(8)">8</button>
+        <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(5)">5</button>
+        <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(2)">2</button>
+      </div>
+      <div class="btn-group-vertical mt-3" style="width: 100px">
+        <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(9)">9</button>
+        <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(6)">6</button>
+        <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(3)">3</button>
+      </div>
+      <div class="btn-group-vertical mt-3" style="width: 100px">
+        <button class="btn btn-outline-dark calc-btn" onclick="changeOperations('/')">/</button>
+        <button class="btn btn-outline-dark calc-btn" onclick="changeOperations('*')">*</button>
+      </div>
+      <div class="btn-group-vertical mt-3" style="width: 100px">
+        <button class="btn btn-outline-dark calc-btn" onclick="changeOperations('-')">-</button>
+        <button class="btn btn-outline-dark calc-btn" onclick="changeOperations('+')">+</button>
+      </div>
+
+      <div class="btn-group-vertical mt-3" style="width: 100px">
+        <button class="btn btn-outline-dark calc-btn" onclick="clearAll()">C</button>
+        <button class="btn btn-dark calc-btn" onclick="equal()">=</button>
+      </div>
+      <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(0)">0</button>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/calc.js"></script>
+  </body>
+</html>
