@@ -9,11 +9,7 @@ body {
   border-color: rgb(167, 167, 167);
 }
 
-p {
-  color: #fff;
-}
-
-#result {
-  width: 350px;
-  margin: auto;
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
 }

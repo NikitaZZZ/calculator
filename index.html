@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="mt-3" id="calculator" style="width: 400px; margin: auto">
-      <h2 style="text-align: center; color: #fff" id="innerCalc"></h2>
+    <div class="mt-3" id="calculator" style="width: 310px; margin: auto">
+      <h2 style="text-align: right; color: #fff" id="innerCalc"></h2>
 
       <div class="btn-group-vertical mt-3" style="width: 100px">
         <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(7)">7</button>
@@ -45,7 +45,8 @@
         <button class="btn btn-outline-dark calc-btn" onclick="clearAll()">C</button>
         <button class="btn btn-dark calc-btn" onclick="calculation()">=</button>
       </div>
-      <button class="btn btn-outline-dark calc-btn" onclick="innerCalc(0)">0</button>
+
+      <button class="btn btn-outline-dark calc-btn mt-3" onclick="innerCalc(0)">0</button>
     </div>
 
     <script src="calc.js"></script>
